@@ -1,0 +1,19 @@
+body{
+    height: 3000px;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    transition:  background-color 0.5s;
+}
+.navbar.scrolled{
+    background-color: cornflowerblue;
+}
+
+p{
+    margin-top: 70px;
+}
